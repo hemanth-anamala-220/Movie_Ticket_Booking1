@@ -1,0 +1,94 @@
+/* Center the form in the middle of the page */
+.contact-container {
+  width: 100%;
+  /* max-width: 500px; */
+  margin-top: 75px;
+  /* margin:  auto; */
+  /* padding: 20px; */
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the heading */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Display response messages */
+.response-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Form input styles */
+.input-group1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.input-group1 label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group1 input,
+.input-group1 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-group1 input:focus,
+.input-group1 textarea:focus {
+  border-color: #007bff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit button styles */
+.Btn button {
+  width: 60%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact-container {
+      width: 90%;
+  }
+}

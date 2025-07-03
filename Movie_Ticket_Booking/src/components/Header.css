@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    /* place-items: center; */
+}
+body{
+    background-color: rgb(244, 226, 226);
+
+}
+.container {
+    height: 100px;
+    background:rgba(238, 24, 102, 0.948);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-shadow: 0px 5px 10px rgba(29, 37, 25, 0.454);
+}
+
+.container .nav-bar .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-right: 40px;
+    column-gap: 20px;
+}
+/* .container .nav-bar .nav-list1 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-right: 40px;
+    column-gap: 20px;
+} */
+.logo a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.container .nav-bar .nav-list .nav-list-item a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(11, 1, 1);
+}
+
+.container .nav-bar .nav-list button {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color:lightsteelblue;
+    color: rgb(8, 0, 0);
+    cursor: pointer;
+}
+
+.container .nav-bar .nav-list button:active {
+    transform: scale(1.05);
+}
+
+.container .nav-bar .nav-list .nav-list-item a.active {
+    color:white;
+}
+
+.container .nav-bar .nav-list .nav-list-item a.inActive {
+    color: black;
+}

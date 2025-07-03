@@ -1,0 +1,30 @@
+.main-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-container h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 10px;
+    color: #34495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+}
