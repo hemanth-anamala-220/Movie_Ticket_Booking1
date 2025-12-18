@@ -34,7 +34,7 @@ const Login = () => {
 
         setLoading(true);
         try {
-            const response = await axios.post("http://localhost:5000/login", user);
+            const response = await axios.post("https://movie-ticket-booking1-backend.onrender.com/login", user);
             setMessage(response.data.message);
 
             // Redirect to Home Page if login is successful
