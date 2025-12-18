@@ -90,7 +90,7 @@ const Payment = () => {
         setIsProcessing(true);
 
         try {
-            const response = await axios.post("http://localhost:5000/api/payment", {
+            const response = await axios.post("https://movie-ticket-booking1-backend.onrender.com/api/payment", {
                 movie: movie?.title || "Unknown Movie",
                 selectedSeats,
                 paymentMode,
