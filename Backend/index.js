@@ -9,19 +9,19 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // **Connect to MongoDB (User Database)**
-const mainDB = mongoose.createConnection("mongodb://127.0.0.1:27017/Signup", {
+const mainDB = mongoose.createConnection("https://movie-ticket-booking1-backend.onrender.com/Signup", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
 // **Connect to MongoDB (Contact Database)**
-const contactDB = mongoose.createConnection("mongodb://127.0.0.1:27017/ContactDB", {
+const contactDB = mongoose.createConnection("https://movie-ticket-booking1-backend.onrender.com/ContactDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
 // **Connect to MongoDB (Payment Database)**
-const paymentDB = mongoose.createConnection("mongodb://127.0.0.1:27017/payments", {
+const paymentDB = mongoose.createConnection("https://movie-ticket-booking1-backend.onrender.com/payments", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
