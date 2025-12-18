@@ -32,7 +32,7 @@ const Signup = () => {
 
         setLoading(true);
         try {
-            const response = await axios.post("http://localhost:5000/signup", user);
+            const response = await axios.post("https://movie-ticket-booking1-backend.onrender.com/signup", user);
             alert(response.data.message);
             setUser({ name: "", email: "", password: "" }); // Reset form
         } catch (error) {
