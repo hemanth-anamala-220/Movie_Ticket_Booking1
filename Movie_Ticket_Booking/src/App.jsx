@@ -14,7 +14,7 @@ import ReleaseMovies from './components/ReleaseMovies';
 import OldMovies from './components/OldMovies';
 import DubbedMovies from './components/DubbedMovies';
 import LatestMovies from './components/LatestMovies';
-import TENAM from './components/TENAM';
+import TENAM from './components/TenAm';
 import SIXPM from './components/SIXPM';
 import NINEPM from './components/NINEPM';
 import Payment from './components/Payment';
