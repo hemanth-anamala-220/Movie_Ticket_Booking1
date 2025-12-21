@@ -14,10 +14,10 @@ import ReleaseMovies from './components/ReleaseMovies';
 import OldMovies from './components/OldMovies';
 import DubbedMovies from './components/DubbedMovies';
 import LatestMovies from './components/LatestMovies';
-import TENAM from './components/TenAm';
-import SIXPM from './components/SIXPM';
-import NINEPM from './components/NINEPM';
+import SixPm from './components/SixPm';
+import NinePm from './components/NinePm';
 import Payment from './components/Payment';
+import TenAm from './components/TenAm';
 
 // import Products from './components/Products'
 // import Mobiles from './components/products/Mobiles'
@@ -43,9 +43,9 @@ const App = () => {
         <Route path="/old-movies" element={<OldMovies />} />
         <Route path="/dubbed-movies" element={<DubbedMovies />} />
         <Route path="/latest-movies" element={<LatestMovies />} /> 
-        <Route path="/TENAM" element={<TENAM />} /> 
-        <Route path="/SIXPM" element={<SIXPM />} /> 
-        <Route path="/NINEPM" element={<NINEPM />} /> 
+        <Route path="/TenAM" element={<TenAm />} /> 
+        <Route path="/SixPm" element={<SixPm />} /> 
+        <Route path="/NinePm" element={<NinePm />} /> 
          <Route path="/Payment" element={<Payment />} /> 
 
         {/* <Route path='/products' element={<Products />}>
